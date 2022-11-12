@@ -1,5 +1,5 @@
 # flexbox
-<img width="800" alt="flexbox" src="https://user-images.githubusercontent.com/31913666/201466324-baf3631f-db9c-4133-aa4e-d152a0ea801b.png">
+<img width="800" alt="flexbox" src="https://user-images.githubusercontent.com/31913666/201466723-b2f3cc6c-0a11-4a60-8115-625513b5a3cc.png">
 
 ## Usage
 > 자식 element에게는 말하지 않고, 부모 element에만 말한다.
@@ -20,6 +20,16 @@
 - cross axis 👉 `align-items`
 
 <img width="500" src="https://user-images.githubusercontent.com/31913666/201465626-8e820794-6b83-46cc-b4c6-6b0a03fd434f.png"  alt="flex-axis"/>
+
+<br>
+
+## `flex-direction`
+- row
+- row-reverse
+- column
+- column-reverse
+
+> **row, column을 변경하면 main/cross axis가 변경된다.**
 
 <br>
 
