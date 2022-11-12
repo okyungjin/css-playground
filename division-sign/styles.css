@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+}
+.container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  border: 4px solid black;
+}
+.square-box {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  background-color: teal;
+  border: 4px solid white;
+}
+.wide-box {
+  width: 300px;
+  border: 4px dashed white;
+}
