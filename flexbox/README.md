@@ -1,4 +1,6 @@
 # flexbox
+<img width="800" alt="flexbox" src="https://user-images.githubusercontent.com/31913666/201466324-baf3631f-db9c-4133-aa4e-d152a0ea801b.png">
+
 ## Usage
 > 자식 element에게는 말하지 않고, 부모 element에만 말한다.
 
@@ -17,7 +19,7 @@
 - main axis 👉 `justify-content`
 - cross axis 👉 `align-items`
 
-<img width="600" src="https://user-images.githubusercontent.com/31913666/201465626-8e820794-6b83-46cc-b4c6-6b0a03fd434f.png"  alt="flex-axis"/>
+<img width="500" src="https://user-images.githubusercontent.com/31913666/201465626-8e820794-6b83-46cc-b4c6-6b0a03fd434f.png"  alt="flex-axis"/>
 
 <br>
 
@@ -25,9 +27,8 @@
 ### 1) `align-items: center`가 적용되지 않을 때
 flex 속성이 적용된 element의 height을 확인해보자. `height: 100vh`를 추가해주니 정상적으로 동작한다.
 
-<br>
 
 ### 2) 현재 index.html 코드에서 `align-items: strech`가 적용되지 않는 이유
 `div`에 `height: 300px` 속성이 잡혀있기 때문이다. 이 속성을 삭제해주면 `strech`가 적용된다.
 
-<img width="1000" alt="스크린샷 2022-11-12 오후 5 35 16" src="https://user-images.githubusercontent.com/31913666/201466112-7151862c-c637-4107-a4e5-5b92e2fda6e9.png">
+<img width="800" alt="스크린샷 2022-11-12 오후 5 35 16" src="https://user-images.githubusercontent.com/31913666/201466112-7151862c-c637-4107-a4e5-5b92e2fda6e9.png">
