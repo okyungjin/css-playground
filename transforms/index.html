@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Transformations</title>
+  <style>
+    img {
+      border-radius: 50%;
+      width: 200px;
+      height: 190px;
+      transition: transform 2s ease-in-out;
+    }
+    img:hover {
+      transform: rotateY(360deg) scale(0.5);
+    }
+  </style>
+</head>
+<body>
+  <img src="img/logo.jpg" />
+  <p><code>transform</code>은 다른 태그에 영향을 미치지 않습니다! <br />다른 요소의 box를 변형시키지 않고 원하는 요소를 이동시키기 위해 사용한다.</p>
+</body>
+</html>
