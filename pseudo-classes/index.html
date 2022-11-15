@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pseudo Classes</title>
+  <style>
+    article {
+      background-color: #F0F1F2;
+      margin: 10px;
+      padding: 10px;
+    }
+    q {
+      color: slategrey;
+      padding: 5px;
+    }
+    .hover:hover {
+      background-color: teal;
+    }
+    .active:active {
+      background-color: tomato;
+    }
+    .focus:focus {
+      background-color: teal;
+    }
+    form {
+      border: 2px solid teal;
+      color: lightgrey;
+      padding: 4px;
+    }
+    form:focus-within {
+      background-color: wheat;
+      color: black;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Pseudo Classes</h1>
+
+  <article>
+    <h2>:hover</h2>
+    <p>커서를 올렸을 때</p>
+    <button class="hover">Button</button>
+  </article>
+
+  <article>
+    <h2>:active</h2>
+    <p>클릭했을 때</p>
+    <button class="active">Button</button>
+  </article>
+
+  <article>
+    <h2>:focus</h2>
+    <p>focus를 얻었을 때</p>
+    <q>The :focus CSS pseudo-class represents an element (such as a form input) that has received focus. It is
+      generally triggered when the user clicks or taps on an element or selects it with the keyboard's Tab key.</q>
+    <br />
+    <input class="focus" type="text" />
+    <input class="focus" type="text" />
+    <input class="focus" type="text" />
+  </article>
+
+  <article>
+    <h2>:focus-within</h2>
+    <p>내부 요소에 focus가 일어났을 때</p>
+    <form>
+      <label for="name">Name</label>
+      <input id="name" type="text" />
+      <br />
+      <label for="age">Age</label>
+      <input id="age" type="number" />
+    </form>
+  </article>
+
+</body>
+</html>
