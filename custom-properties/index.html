@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Colors and Variables</title>
+  <style>
+    :root {
+      --main-color: #fcce00;
+      --default-border: 2px solid var(--main-color);
+    }
+    body {
+      height: 100vh;
+      margin: 50px;
+    }
+    p {
+      background-color: var(--main-color);
+    }
+    a {
+      color: var(--main-color);
+    }
+    button {
+      border: var(--default-border);
+    }
+  </style>
+</head>
+<body>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, sed?</p>
+  <a href="#">Go to Website!</a>
+  <br />
+  <button>button</button>
+</body>
+</html>
