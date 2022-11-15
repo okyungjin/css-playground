@@ -5,3 +5,5 @@
 - translate
 - rotate
 - skew (비스듬히 기울이기) 등
+
+![transforms](https://user-images.githubusercontent.com/31913666/201843246-9ea2bc2a-b7c4-4bee-bd89-b86c74ac5595.gif)
