@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #76c4c6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes dotAnimation {
+  50% {
+    transform: rotate(0.5turn);
+  }
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
+
+.box {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dots {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  animation: dotAnimation 1s ease-in-out infinite;
+  margin-bottom: 200px;
+}
+
+.dot {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  /* 👆🏻 If you set the border-radius to half of the width and height
+  it becomes a circle, 50% also works*/
+}
+
+.lines {
+  width: 150px;
+}
+
+@keyframes lineAnim {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: scaleY(2);
+  }
+  50%,
+  100% {
+    transform: none;
+  }
+}
+
+.line {
+  width: 20px;
+  height: 80px;
+  background-color: white;
+  animation: lineAnim 1s ease-in-out infinite;
+}
+
+/*
+Remove 'animation-delay and see what happens!!!
+*/
+
+.line:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.line:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.line:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.line:nth-child(5) {
+  animation-delay: 0.4s;
+}
